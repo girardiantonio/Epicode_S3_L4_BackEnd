@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace Epicode_S3_L4_BackEnd
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Default1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -48,23 +49,16 @@ namespace Epicode_S3_L4_BackEnd
 
                     if (inserimentoEffettuato > 0)
                     {
-                        Label1.Text = "Inserimento effettuato con successo" + "<br />" +
-                                     "Nome: " + TextNome.Text + "<br />" +
-                                     "Cognome: " + TextNome.Text + "<br />" +
-                                     "Indirizzo: " + TextNome.Text + "<br />" +
-                                     "Telefono: " + TextNome.Text + "<br />" +
-                                     "Email: " + TextNome.Text;
-
-
+                        Label1.Text = "Inserimento effettuato con successo."; 
                     }
                     else
                     {
-                        Response.Write("Nessuna riga inserita nel database.");
+                        Label1.Text = "Nessuna riga inserita nel database.";
                     }
                 }
                 catch (Exception)
                 {
-                    Response.Write("Errore durante l'inserimento dei dati.");
+                    Label1.Text = "Errore durante l'inserimento dei dati.";
                 }
             }
         }

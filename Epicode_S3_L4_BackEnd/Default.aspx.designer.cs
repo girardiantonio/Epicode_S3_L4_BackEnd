@@ -11,17 +11,26 @@ namespace Epicode_S3_L4_BackEnd
 {
 
 
-    public partial class Default
+    public partial class Default1
     {
 
         /// <summary>
-        /// Controllo form1.
+        /// Controllo form2.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl form2;
+
+        /// <summary>
+        /// Controllo Image1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
         /// Controllo TextNome.
