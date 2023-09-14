@@ -24,6 +24,15 @@ namespace Epicode_S3_L4_BackEnd
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
+        /// Controllo SearchBox.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl SearchBox;
+
+        /// <summary>
         /// Controllo form1.
         /// </summary>
         /// <remarks>

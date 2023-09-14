@@ -13,5 +13,16 @@ namespace Epicode_S3_L4_BackEnd
         {
 
         }
+
+        protected void HomeButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void RubricaButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Rubrica.aspx");
+        }
+
     }
 }

@@ -17,7 +17,7 @@
                 <asp:FileUpload ID="UpFoto" runat="server" CssClass="form-control mb-1" />
             </div>
             <div class="d-flex justify-content-center">
-                <asp:Button ID="Button1" class="btn btn-primary mb-3" runat="server" Text="Registra" OnClick="Button1_Click" />
+                <asp:Button ID="Button1" class="btn btn-primary mb-3" runat="server" Text="Aggiungi" OnClick="Button1_Click" />
             </div>
         </div>
         <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
